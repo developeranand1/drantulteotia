@@ -1,0 +1,46 @@
+/* styles/Blog.module.css */
+
+.bjpBackground {
+  /* Example background gradient matching your theme */
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.textOrange {
+  color: #ff6f00; /* Matches your orange theme */
+}
+
+.blogTitle {
+  /* Optional styling for the title */
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.customHr {
+  width: 80px;
+  border-top-width: 3px;
+  margin: 0 auto;
+  border-color: #ff6f00;
+}
+.tricolorText {
+  display: flex;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 2.8rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.tricolorText span:nth-child(1) {
+  color: #FF9933; /* Saffron */
+}
+
+.tricolorText span:nth-child(2) {
+  color: #FFFFFF; /* White */
+  text-shadow: 0 0 5px rgba(0,0,0,0.4); /* For visibility */
+}
+
+.tricolorText span:nth-child(3) {
+  color: #138808; /* Green */
+}
+

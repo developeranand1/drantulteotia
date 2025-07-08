@@ -1,0 +1,17 @@
+.eventsBg {
+  background: linear-gradient(to right, #ff6f00, #ffffff, #138808);
+  background-size: cover;
+}
+
+.tricolorTitle {
+  color: #ff6f00; /* Solid BJP orange for clarity */
+}
+
+
+
+.hrCustom {
+  border: 2px solid #ff6f00;
+  width: 80px;
+  margin: 0 auto;
+}
+
