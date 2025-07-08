@@ -9,7 +9,7 @@ const events = [
     date: '15 August 2025',
     time: '10:00 AM',
     location: 'Jind,Haryana',
-    image: '/womenEmpowerment.jpg',
+    image: '/g10.jpg',
     description: 'Women Empowerment Day'
   },
   {
