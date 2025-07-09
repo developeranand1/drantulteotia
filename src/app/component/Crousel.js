@@ -36,7 +36,7 @@ export default function BJPAnimatedBanner() {
               }}
             >
               <Image
-                src="/g11.jpg"
+                src="/DrAntul.jpg"
                 alt="जिला पंचायत चेयरमैन डॉ. अंतुल तेवतिया "
                 fill
                 style={{ objectFit: 'cover' }}

@@ -1,7 +1,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-color: #FF6F00;   /* Saffron */
+  --secondary-color: #046A38; /* Green */
+  --accent-color: #005BBB;    /* Blue or custom */
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -19,10 +23,12 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 * {
   box-sizing: border-box;
@@ -40,3 +46,35 @@ a {
     color-scheme: dark;
   }
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button, .btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--secondary-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 60px 0;
+}
+

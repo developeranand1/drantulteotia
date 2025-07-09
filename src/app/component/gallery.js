@@ -4,9 +4,9 @@ import Image from 'next/image';
 import Head from 'next/head';
 
 const galleryImages = [
-  { id: 1, src: '/g1.jpg', title: '' },
+  { id: 1, src: '/g3.jpg', title: '' },
   { id: 2, src: '/g2.jpg', title: '' },
-  { id: 3, src: '/g3.jpg', title: '' },
+  { id: 3, src: '/g1.jpg', title: '' },
   { id: 4, src: '/g4.jpg', title: '' },
   { id: 5, src: '/g5.jpg', title: '' },
   { id: 7, src: '/g6.jpg', title: '' },
@@ -61,13 +61,17 @@ export default function Gallery() {
             <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={image.id}>
               <div className="card shadow border-0 h-100">
                 <div className="image-container">
-                  <Image
-                    src={image.src}
-                    alt={image.title || 'Gallery Image'}
-                    fill
-                    style={{ objectFit: 'cover' }}
-                  />
-                </div>
+  <Image
+    src={image.src}
+    alt={image.title || 'Gallery Image'}
+    fill
+    style={{
+      objectFit: image.src === '/g3.jpg' ? 'full' : 'cover',
+      backgroundColor: image.src === '/g3.jpg' ? '#fff' : '',
+    }}
+  />
+</div>
+
                 <div className="card-body text-center bg-light">
                   <h5 className="card-title text-warning">{image.title}</h5>
                 </div>
