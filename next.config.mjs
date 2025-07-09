@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    //   productionBrowserSourceMaps: false,
-
+  allowedDevOrigins: ['http://localhost:3000'],
 };
 
 export default nextConfig;
+
