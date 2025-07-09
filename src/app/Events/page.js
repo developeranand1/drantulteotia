@@ -5,12 +5,12 @@ import styles from '../styles/Events.module.css';
 const events = [
   {
     id: 1,
-    title: 'Women Empowerment',
+    title: 'Public Awareness',
     date: '15 August 2025',
     time: '10:00 AM',
     location: 'Jind,Haryana',
-    image: '/g10.jpg',
-    description: 'Women Empowerment Day'
+    image: '/gernalAwarness.jpg',
+    description: 'Public Awareness '
   },
   {
     id: 2,
