@@ -61,17 +61,13 @@ export default function Gallery() {
             <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={image.id}>
               <div className="card shadow border-0 h-100">
                 <div className="image-container">
-  <Image
-    src={image.src}
-    alt={image.title || 'Gallery Image'}
-    fill
-    style={{
-      objectFit: image.src === '/g3.jpg' ? 'full' : 'cover',
-      backgroundColor: image.src === '/g3.jpg' ? '#fff' : '',
-    }}
-  />
-</div>
-
+                  <Image
+                    src={image.src}
+                    alt={image.title || 'Gallery Image'}
+                    fill
+                    style={{ objectFit: 'cover' }}
+                  />
+                </div>
                 <div className="card-body text-center bg-light">
                   <h5 className="card-title text-warning">{image.title}</h5>
                 </div>
