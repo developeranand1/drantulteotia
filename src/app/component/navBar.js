@@ -133,7 +133,7 @@ export default function Navbar() {
               })}
               <li className="nav-item">
                 <Link
-  href="https://wa.me/918527673533?text=Hello%2C%20I%20want%20to%20join%20BJP."
+  href="https://wa.me/9195684 20467?text=Hello%2C%20I%20want%20to%20join%20BJP."
   target="_blank"
   rel="noopener noreferrer"
   className="btn btn-join"
